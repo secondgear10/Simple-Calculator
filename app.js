@@ -16,16 +16,6 @@ clean3.addEventListener("click", clean);
 
 
 // // functions of buttons
-// function add(event) {
-  
-//     var input1 = document.getElementById("input1").value;
-//     var input2 = document.getElementById("input2").value;
-//     var result = parseFloat(input1) + parseFloat(input2);
-    
-//     document.getElementById("result").innerHTML = result;
-//   }
-
-
 
 function add(event) {
 
@@ -57,18 +47,6 @@ function add(event) {
             document.getElementById("result").innerHTML = result;
         }
     }
-
-
-
-
-//   function mul() {
-//     var input1 = document.getElementById("input1").value;
-//     var input2 = document.getElementById("input2").value;
-//     var result = parseFloat(input1) * parseFloat(input2);
-  
-//     document.getElementById("result").innerHTML = result;
-//   }
-
 
     function mul(){
         let input1 = document.getElementById("input1").value;
